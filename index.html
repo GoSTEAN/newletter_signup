@@ -30,86 +30,90 @@
   </head>
   <body>
     <div class="start">
-      <div class="svg-mobile">
-        <img src="assets/images/illustration-sign-up-mobile.svg" alt="">
-      </div>
-      <h1>Stay updated!</h1>
+      <div class="success visible" id="success"></div>
+      <div id="start1">
+        <div class="svg-mobile">
+          <img src="assets/images/illustration-sign-up-mobile.svg" alt="" />
+        </div>
+        <h1>Stay updated!</h1>
 
-      <p>
-        Join 60,000+ product managers receiving monthly <br />
-        updates on:
-      </p>
-      <div class="li">
-        <ul>
-          
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="21"
-            height="21"
-            viewBox="0 0 21 21"
-          >
-            <g fill="none">
-              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
-              <path
-                stroke="#FFF"
-                stroke-width="2"
-                d="M6 11.381 8.735 14 15 8"
-              />
-            </g>
-          </svg>
-          <li>Product discovery and building what matters</li>
-          <br />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="21"
-            height="21"
-            viewBox="0 0 21 21"
-          >
-            <g fill="none">
-              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
-              <path
-                stroke="#FFF"
-                stroke-width="2"
-                d="M6 11.381 8.735 14 15 8"
-              />
-            </g>
-          </svg>
-          <li>Measuring to ensure updates are a success</li>
-          <br />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="21"
-            height="21"
-            viewBox="0 0 21 21"
-          >
-            <g fill="none">
-              <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
-              <path
-                stroke="#FFF"
-                stroke-width="2"
-                d="M6 11.381 8.735 14 15 8"
-              />
-            </g>
-          </svg>
-          <li class="li-bottom">And much more!</li>
-        </ul>
+        <p>
+          Join 60,000+ product managers receiving monthly <br />
+          updates on:
+        </p>
+        <div class="li">
+          <ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <li>Product discovery and building what matters</li>
+            <br />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <li>Measuring to ensure updates are a success</li>
+            <br />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+            >
+              <g fill="none">
+                <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                <path
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M6 11.381 8.735 14 15 8"
+                />
+              </g>
+            </svg>
+            <li class="li-bottom">And much more!</li>
+          </ul>
+        </div>
+        <label class="email" for="email"> Email address</label><br />
+        <input type="text" id="email" placeholder="email@company.com" /><br />
+        <span id="errorMessage"></span>
       </div>
-      <label class="email" form="email"> Email address</label><br />
-      <input type="text" id="email" placeholder="email@company.com" /><br />
-      <button class="norm-btn" id="norm-btn">Subscribe to monthly newsletter</button>
-      <img src="" alt="" />
-      <div class="svg-desktop">
-        <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
-
-        
+      <button class="norm-btn" id="norm-btn">
+        Subscribe to monthly newsletter
+      </button>
+      <div id="start">
+        <img src="" alt="" />
+        <div class="svg-desktop">
+          <img src="assets/images/illustration-sign-up-desktop.svg" alt="" />
+        </div>
       </div>
     </div>
 
-    
     <!-- Sign-up form end -->
 
     <!-- Success message start -->
-    <div class="success">
+    <!-- <div id="success">
       <h1>Thanks for subscribing!</h1>
       <p>
         A confirmation email has been sent to
@@ -117,7 +121,7 @@
         inside to confirm your subscription.
       </p>
       <button>Dismiss message</button>
-    </div>
+    </div> -->
 
     <!-- Success message end -->
 
@@ -129,5 +133,6 @@
     </div>
 
     <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/email-validator/dist/email-validator.min.js"></script> -->
   </body>
 </html>
