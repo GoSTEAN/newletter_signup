@@ -292,3 +292,99 @@ input {
     /* top: 10%; */
   }
 }
+
+/* Responsive Styles */
+@media (min-width: 1200px) {
+  /* MacBook Pro 16 inches */
+  body {
+    max-width: 90vw;
+  }
+
+  .start {
+    padding: 80px 100px;
+    margin: 13% 9%;
+    left: 10%;
+    height: 0;
+    padding-bottom: 35%;
+  }
+
+  li {
+    position: relative;
+    padding-left: 30px;
+    margin-top: -29px;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .li {
+    position: relative;
+    padding-left: 120px;
+  }
+
+  .svg-desktop {
+    position: relative;
+    float: left;
+    margin-left: 55%;
+    margin-top: -57%;
+  }
+
+  .email {
+    position: absolute;
+    margin-top: 15px;
+  }
+
+  input {
+    width: 44%;
+    margin-top: 25px;
+  }
+
+  .norm-btn {
+    width: 44%;
+    margin-top: 15px;
+  }
+
+  .li {
+    margin: -19%;
+    padding-top: 21%;
+    padding-bottom: 19%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  /* MacBook Pro 13 inches */
+  body {
+    max-width: 140vw;
+  }
+
+  .start {
+    padding: 100px;
+    margin: 13% 19%;
+    left: 3%;
+    height: 0;
+    padding-bottom: 50%;
+    width: 60%;
+  }
+
+  .li {
+    position: relative;
+    margin-left: -20px;
+  }
+
+  .svg-desktop {
+    display: none;
+  }
+
+  h1 {
+    position: relative;
+    margin-top: -45px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .norm-btn {
+    width: 100%;
+  }
+}
+
