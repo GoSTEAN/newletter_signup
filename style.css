@@ -192,6 +192,20 @@ small {
   background-color: hsl(4, 100%, 95%);
 }
 
+.attribution {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  
+  margin-bottom: -690px;
+  font-size: 19px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #f0f0f0;
+  cursor: pointer;
+}
 @media (min-width: 600px) {
 
   .wrap {

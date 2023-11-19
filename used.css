@@ -144,6 +144,21 @@ input {
 }
 
 
+.attribution {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 35%;
+  margin-top: -102px;
+  font-size: 19px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+
 
 @media (min-width: 481px) {
   body {
